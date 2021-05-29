@@ -1,25 +1,24 @@
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-// system.c -- System Configurations
+// interrupts.h -- Header file for interrupts.c
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // Author: mjneri
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-// Module Name: system.c
+// Module Name: interrupts.h
 // Description:
 //
 // Revisions:
-// Revision 0.01 - File Created (May 27, 2021)
+// Revision 0.01 - File Created (DATE HERE)
 // Additional Comments:
 //
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-// Include files
-#include "system.h"
+// Header guards
+#ifndef _INTERRUPTS_H_
+#define _INTERRUPST_H_
 
-void PIN_Initialize(void)
-{
-    // Initialize the LED pin as GPIO out
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
-}
+// Function prototypes
+// ...
+
+#endif /*_INTERRUPTS_H_*/

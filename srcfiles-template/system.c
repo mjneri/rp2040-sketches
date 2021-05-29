@@ -1,5 +1,5 @@
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-// system.c -- System Configurations
+// system.c -- System Initialization & Configuration code
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // Author: mjneri
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -9,17 +9,19 @@
 // Description:
 //
 // Revisions:
-// Revision 0.01 - File Created (May 27, 2021)
+// Revision 0.01 - File Created (DATE HERE)
 // Additional Comments:
 //
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-// Include files
-#include "system.h"
+// Include Header files
+// ...
 
-void PIN_Initialize(void)
-{
-    // Initialize the LED pin as GPIO out
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
-}
+// Global Variables
+// ...
+
+// Extern variables
+// ...
+
+// Functions
+// ...

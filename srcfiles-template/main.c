@@ -1,25 +1,37 @@
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-// system.c -- System Configurations
+// main.c -- Main C Firmware code
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // Author: mjneri
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-// Module Name: system.c
-// Description:
+// Module Name: main.c
+// Description: 
 //
 // Revisions:
-// Revision 0.01 - File Created (May 27, 2021)
+// Revision 0.01 - File Created (DATE HERE)
 // Additional Comments:
 //
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-// Include files
-#include "system.h"
+// Include header files here
+// ...
 
-void PIN_Initialize(void)
+// Global Variables
+// Define variables that will be accessed by ISRs as 'volatile'
+// ...
+
+// Extern Variables
+// ...
+
+int main(void)
 {
-    // Initialize the LED pin as GPIO out
-    gpio_init(LED_PIN);
-    gpio_set_dir(LED_PIN, GPIO_OUT);
+    // Initialize all modules
+    // ...
+
+    while(1)
+    {
+        // Write application code here
+        // ...
+    }
 }

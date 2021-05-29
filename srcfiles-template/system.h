@@ -1,5 +1,5 @@
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-// system.h -- System Header file
+// system.h -- Header file for system.c
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // Author: mjneri
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -9,25 +9,28 @@
 // Description:
 //
 // Revisions:
-// Revision 0.01 - File Created (May 27, 2021)
+// Revision 0.01 - File Created (DATE HERE)
 // Additional Comments:
 //
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-// Header guards
+// Header Guards
 #ifndef _SYSTEM_H_
 #define _SYSTEM_H_
 
-// Include files for the project
-// NOTE: When adding Pico libraries, CMakeLists.txt will need to be modified
-#include <stdio.h>
-#include "pico/stdlib.h"            // Path: pico-sdk/src/common/pico_stdlib
-                                    // This library includes multiple libraries including pico.h, hardware/gpio.h, etc.
+// Project File includes (like stdio.h, etc.)
+// ...
 
-// System Macros/Defines
-#define LED_PIN 25
+// Other header files
+// ...
 
-// Function headers
-void PIN_Initialize(void);
+// Define Macros
+// ...
+
+// Define System level constants
+// ...
+
+// Function prototypes
+// ...
 
 #endif /*_SYSTEM_H_*/
