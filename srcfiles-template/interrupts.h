@@ -16,7 +16,7 @@
 
 // Header guards
 #ifndef _INTERRUPTS_H_
-#define _INTERRUPST_H_
+#define _INTERRUPTS_H_
 
 // Function prototypes
 // ...
